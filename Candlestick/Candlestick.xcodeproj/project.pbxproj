@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A09B6417427DD400245E9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A09B6317427DD400245E9B /* UIKit.framework */; };
+		68A09B6617427DD400245E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A09B6517427DD400245E9B /* Foundation.framework */; };
+		68A09B6817427DD400245E9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A09B6717427DD400245E9B /* CoreGraphics.framework */; };
+		68A09B6E17427DD400245E9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A09B6C17427DD400245E9B /* InfoPlist.strings */; };
+		68A09B7017427DD400245E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A09B6F17427DD400245E9B /* main.m */; };
+		68A09B7417427DD400245E9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A09B7317427DD400245E9B /* AppDelegate.m */; };
+		68A09B7617427DD400245E9B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A09B7517427DD400245E9B /* Default.png */; };
+		68A09B7817427DD400245E9B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A09B7717427DD400245E9B /* Default@2x.png */; };
+		68A09B7A17427DD400245E9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A09B7917427DD400245E9B /* Default-568h@2x.png */; };
+		68A09B7D17427DD400245E9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A09B7B17427DD400245E9B /* MainStoryboard.storyboard */; };
+		68A09B8017427DD400245E9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A09B7F17427DD400245E9B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68A09B5F17427DD400245E9B /* Candlestick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Candlestick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A09B6317427DD400245E9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68A09B6517427DD400245E9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68A09B6717427DD400245E9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68A09B6B17427DD400245E9B /* Candlestick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Candlestick-Info.plist"; sourceTree = "<group>"; };
+		68A09B6D17427DD400245E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68A09B6F17427DD400245E9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68A09B7117427DD400245E9B /* Candlestick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Candlestick-Prefix.pch"; sourceTree = "<group>"; };
+		68A09B7217427DD400245E9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68A09B7317427DD400245E9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68A09B7517427DD400245E9B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		68A09B7717427DD400245E9B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		68A09B7917427DD400245E9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		68A09B7C17427DD400245E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68A09B7E17427DD400245E9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68A09B7F17427DD400245E9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68A09B5C17427DD400245E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A09B6417427DD400245E9B /* UIKit.framework in Frameworks */,
+				68A09B6617427DD400245E9B /* Foundation.framework in Frameworks */,
+				68A09B6817427DD400245E9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A09B5417427DD400245E9B = {
+			isa = PBXGroup;
+			children = (
+				68A09B6917427DD400245E9B /* Candlestick */,
+				68A09B6217427DD400245E9B /* Frameworks */,
+				68A09B6017427DD400245E9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68A09B6017427DD400245E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A09B5F17427DD400245E9B /* Candlestick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A09B6217427DD400245E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A09B6317427DD400245E9B /* UIKit.framework */,
+				68A09B6517427DD400245E9B /* Foundation.framework */,
+				68A09B6717427DD400245E9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68A09B6917427DD400245E9B /* Candlestick */ = {
+			isa = PBXGroup;
+			children = (
+				68A09B7217427DD400245E9B /* AppDelegate.h */,
+				68A09B7317427DD400245E9B /* AppDelegate.m */,
+				68A09B7B17427DD400245E9B /* MainStoryboard.storyboard */,
+				68A09B7E17427DD400245E9B /* ViewController.h */,
+				68A09B7F17427DD400245E9B /* ViewController.m */,
+				68A09B6A17427DD400245E9B /* Supporting Files */,
+			);
+			path = Candlestick;
+			sourceTree = "<group>";
+		};
+		68A09B6A17427DD400245E9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A09B6B17427DD400245E9B /* Candlestick-Info.plist */,
+				68A09B6C17427DD400245E9B /* InfoPlist.strings */,
+				68A09B6F17427DD400245E9B /* main.m */,
+				68A09B7117427DD400245E9B /* Candlestick-Prefix.pch */,
+				68A09B7517427DD400245E9B /* Default.png */,
+				68A09B7717427DD400245E9B /* Default@2x.png */,
+				68A09B7917427DD400245E9B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A09B5E17427DD400245E9B /* Candlestick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A09B8317427DD400245E9B /* Build configuration list for PBXNativeTarget "Candlestick" */;
+			buildPhases = (
+				68A09B5B17427DD400245E9B /* Sources */,
+				68A09B5C17427DD400245E9B /* Frameworks */,
+				68A09B5D17427DD400245E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Candlestick;
+			productName = Candlestick;
+			productReference = 68A09B5F17427DD400245E9B /* Candlestick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68A09B5617427DD400245E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Dmitriy;
+			};
+			buildConfigurationList = 68A09B5917427DD400245E9B /* Build configuration list for PBXProject "Candlestick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68A09B5417427DD400245E9B;
+			productRefGroup = 68A09B6017427DD400245E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A09B5E17427DD400245E9B /* Candlestick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68A09B5D17427DD400245E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A09B6E17427DD400245E9B /* InfoPlist.strings in Resources */,
+				68A09B7617427DD400245E9B /* Default.png in Resources */,
+				68A09B7817427DD400245E9B /* Default@2x.png in Resources */,
+				68A09B7A17427DD400245E9B /* Default-568h@2x.png in Resources */,
+				68A09B7D17427DD400245E9B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A09B5B17427DD400245E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A09B7017427DD400245E9B /* main.m in Sources */,
+				68A09B7417427DD400245E9B /* AppDelegate.m in Sources */,
+				68A09B8017427DD400245E9B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68A09B6C17427DD400245E9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A09B6D17427DD400245E9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68A09B7B17427DD400245E9B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A09B7C17427DD400245E9B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68A09B8117427DD400245E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68A09B8217427DD400245E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68A09B8417427DD400245E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Candlestick/Candlestick-Prefix.pch";
+				INFOPLIST_FILE = "Candlestick/Candlestick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68A09B8517427DD400245E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Candlestick/Candlestick-Prefix.pch";
+				INFOPLIST_FILE = "Candlestick/Candlestick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68A09B5917427DD400245E9B /* Build configuration list for PBXProject "Candlestick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A09B8117427DD400245E9B /* Debug */,
+				68A09B8217427DD400245E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A09B8317427DD400245E9B /* Build configuration list for PBXNativeTarget "Candlestick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A09B8417427DD400245E9B /* Debug */,
+				68A09B8517427DD400245E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68A09B5617427DD400245E9B /* Project object */;
+}
